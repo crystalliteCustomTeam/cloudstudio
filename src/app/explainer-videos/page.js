@@ -321,10 +321,10 @@ const page = () => {
       <InnerBanner content={banner} />
       <Form />
       <Animations content={animations} />
-      <Portfolio content={portfolio} />
+      {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
-      <Animation />
+      {/* <Animation /> */}
       <Brand content={sales} />
       <OurClient />
       <Extraordinary />

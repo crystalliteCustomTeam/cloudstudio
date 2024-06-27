@@ -10,13 +10,13 @@ export async function POST(request) {
             port: 465,
             secure: true,
             auth: {
-                user: "harrykennedy.cs@gmail.com",
+                user: "sales@cloudstudiosinc.com",
                 pass: "10@Kskwoks"
             }
         });
         const mailOptions = {
-            from: "harrykennedy.cs@gmail.com",
-            to: "harrykennedy.cs@gmail.com",
+            from: "sales@cloudstudiosinc.com",
+            to: "sales@cloudstudiosinc.com",
             subject: `Cloud Studios Inc Lead`,
             html: `
             <table>

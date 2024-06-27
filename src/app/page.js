@@ -303,8 +303,8 @@ const page = () => {
       <Form />
       <Bussiness />
       <Assisted />
-      <Animation />
-      <Portfolio content={portfolio} />
+      {/* <Animation /> */}
+      {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
       <Brand content={sales} />

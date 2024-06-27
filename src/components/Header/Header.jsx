@@ -29,7 +29,7 @@ import {
     UserGroupIcon,
 } from "@heroicons/react/24/solid";
 // Import Images
-import logo from "media/logo.webp";
+import logo from "media/logo.png";
 
 const megaMenuItems = [
     {
@@ -223,7 +223,7 @@ const Header = () => {
                         >
                             <Image
                                 src={logo}
-                                className="w-[60%] sm:w-[80%]"
+                                className="w-[60%]"
                                 alt="Cloud Studios Inc"
                             />
                         </Typography>

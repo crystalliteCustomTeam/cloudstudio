@@ -1,5 +1,4 @@
 "use client"
-
 import React from 'react'
 import InnerBanner from '@/components/InnerBanner/InnerBanner'
 import Animations from '@/components/Animations/Animations'
@@ -10,12 +9,9 @@ import Brand from '@/components/BrandShine/Brand'
 import Remarkable from '@/components/Remarkable/Remarkable'
 import OurClient from '@/components/ourClient/OurClient'
 import Extraordinary from '@/components/Extraordinary/Extraordinary'
-
-
 // ===== Images 
 import BranShine from "media/2d-animation/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
-
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
 import Thumnail2 from "media/thumbnails/2d-animation/2.jpg"
@@ -47,7 +43,6 @@ import Thumnail27 from "media/thumbnails/hybrid/3.jpg"
 import Thumnail28 from "media/thumbnails/hybrid/4.jpg"
 import Thumnail29 from "media/thumbnails/hybrid/5.jpg"
 import Thumnail30 from "media/thumbnails/hybrid/6.jpg"
-
 // ===== Card Images
 import Remark10 from "media/home/remark10.png"
 import Remark11 from "media/home/remark11.png"
@@ -74,7 +69,6 @@ const page = () => {
     isList: false,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/916116973/rendition/1080p/file.mp4?loc=external&log_user=0&signature=77fdc5bd531e7ad88bc093f0ed7a0b34f0c4b24122d3d126758e255b1a15575a",
   }
-
   //==== Animations Sections =====//
   const animations = {
     title: <>Stunning 2D Animation Service</>,
@@ -84,7 +78,6 @@ const page = () => {
     subpara: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
     AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/916096653/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2c1fbdcd7282fe2b314ed51948a2b8195b14b7d762295e12e88097ea4fc583e2",
   }
-
   //=====Portfilio Fold=====// 
   const tabInfo = [
     { label: "2D Animations", index: 0 },
@@ -319,10 +312,10 @@ const page = () => {
       <InnerBanner content={banner} />
       <Form />
       <Animations content={animations} />
-      <Portfolio content={portfolio} />
+      {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
-      <Animation />
+      {/* <Animation /> */}
       <Brand content={sales} />
       <OurClient />
       <Extraordinary />
