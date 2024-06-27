@@ -1,5 +1,4 @@
 "use client"
-
 import React from 'react'
 import Banner from '@/components/Banner/Banner'
 import Form from '@/components/form/Form'
@@ -11,11 +10,9 @@ import Brand from '@/components/BrandShine/Brand'
 import Remarkable from '@/components/Remarkable/Remarkable'
 import OurClient from '@/components/ourClient/OurClient'
 import Extraordinary from '@/components/Extraordinary/Extraordinary'
-
 // ===== Images 
 import BranShine from "media/home/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
-
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
 import Thumnail2 from "media/thumbnails/2d-animation/2.jpg"
@@ -47,7 +44,6 @@ import Thumnail27 from "media/thumbnails/hybrid/3.jpg"
 import Thumnail28 from "media/thumbnails/hybrid/4.jpg"
 import Thumnail29 from "media/thumbnails/hybrid/5.jpg"
 import Thumnail30 from "media/thumbnails/hybrid/6.jpg"
-
 // ===== Card Images
 import Remark1 from "media/home/remark1.png"
 import Remark2 from "media/home/remark2.png"
