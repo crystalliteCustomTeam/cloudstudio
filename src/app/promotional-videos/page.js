@@ -367,10 +367,10 @@ const page = () => {
       {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
-      {/* {/* <Animation /> */} */}
+      {/* <Animation /> */}
       <Brand content={sales} />
       <OurClient content={ourClient} />
-      <Extraordinary content={extraOrdinary}/>
+      <Extraordinary content={extraOrdinary} />
     </>
   )
 }
