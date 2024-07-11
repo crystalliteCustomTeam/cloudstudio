@@ -10,12 +10,11 @@ import Brand from '@/components/BrandShine/Brand'
 import Remarkable from '@/components/Remarkable/Remarkable'
 import OurClient from '@/components/ourClient/OurClient'
 import Extraordinary from '@/components/Extraordinary/Extraordinary'
-
-
 // ===== Images 
 import BranShine from "media/whiteboard/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
-
+import Client1 from "media/home/client1.png"
+import Client2 from "media/home/client2.png"
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
 import Thumnail2 from "media/thumbnails/2d-animation/2.jpg"
@@ -73,6 +72,13 @@ const page = () => {
     isList: true,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/916124095/rendition/2160p/file.mp4?loc=external&log_user=0&signature=3c1bc08015af185d80d4a832c1d8eba71d9380480c8de67596e97b8cae183386",
   }
+
+  // ==== Form
+  const formData = {
+    title: (<>🔥 Special Bundle Offers on Video Animation & So Much More! </>),
+    para: (<>🌟 Bundle a motion graphics package with any animation order and save 25% off the combined price – experience the <br /> best-in-class video animation solutions today!</>),
+  }
+
 
   //==== Animations Sections =====//
   const animations = {
@@ -314,19 +320,54 @@ const page = () => {
     branImage: SaleShine,
   }
 
+  // ===== OurClient
+
+  const ourClient = {
+    title: "See what our clients have to say!",
+    para: "Trust Earned is Trust Is Endured!",
+    reviewContent: [
+      {
+        image: Client1,
+        title: 'Sarah Benny',
+        para: `Cloud Studios turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills are out of this world. It felt like I was strolling through our future building. 10/10. I would recommend it to any architect or real estate developer!`
+      },
+      {
+        image: Client2,
+        title: 'Michelle Joanna',
+        para: `OMG! The cel animation the studio created for our indie film was pure magic! They somehow captured the nostalgia of old-school cartoons while adding a modern twist. Our characters came to life in ways we never imagined. These guys are animation wizards! `
+      },
+      {
+        image: Client1,
+        title: 'Rusell J. Peters',
+        para: `Holy hybrid animation, Superman! Cloud Studios mixed 2D and 3D like nobody's business for our superhero series. The result? It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation!`
+      },
+      {
+        image: Client2,
+        title: 'Lisa Kevins',
+        para: `⚡🕹️ Vroom! The real-time rendering for our racing game is insanely good! The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines! 🏆`
+      }
+    ]
+  }
+
+
+  // ===== extraOrdinary
+  const extraOrdinary = {
+    title: (<>Exceptional Video Animation Services Await You!</>),
+    para: (<>What are you waiting for? The apocalypse? Well, we can make that happen, too, with our animation solutions. Enter the world of Cloud Studios and experience animation like never before.</>),
+  }
 
   return (
     <>
       <InnerBanner content={banner} />
-      <Form />
+      <Form content={formData} />
       <Animations content={animations} />
       {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
       {/* <Animation /> */}
       <Brand content={sales} />
-      <OurClient />
-      <Extraordinary />
+      <OurClient content={ourClient} />
+      <Extraordinary content={extraOrdinary} />
     </>
   )
 }

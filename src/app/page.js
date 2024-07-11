@@ -60,6 +60,12 @@ import Remark9 from "media/home/remark9.png"
 
 const page = () => {
 
+  // ==== Form
+  const formData = {
+    title: (<>🔥 Special Bundle Offers on Video Animation & So Much More! </>),
+    para: (<>🌟 Bundle a motion graphics package with any animation order and save 25% off the combined price – experience the <br /> best-in-class video animation solutions today!</>),
+  }
+
   //=====Portfilio Fold=====// 
   const tabInfo = [
     { label: "2D Animations", index: 0 },
@@ -201,12 +207,6 @@ const page = () => {
     ],
   ];
 
-  // ==== Form
-  const formData = {
-    title: (<>🔥 Special Bundle Offers on Video Animation & So Much More! </>),
-    para: (<>🌟 Bundle a motion graphics package with any animation order and save 25% off the combined price – experience the <br /> best-in-class video animation solutions today!</>),
-  }
-  
   const portfolio = {
     title: (<> Our Award-winning Video Animation Fort-Knox </>),
     para: (<>Experience our video animation and rendering portfolio and see what we have done for<br />  our clients globally! </>),

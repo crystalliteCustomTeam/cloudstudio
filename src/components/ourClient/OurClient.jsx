@@ -15,7 +15,7 @@ import Client1 from "media/home/client1.png"
 import Client2 from "media/home/client2.png"
 
 const OurClient = ({ content }) => {
-    const {title, para, reviewContent} = content
+    const { title, para, reviewContent } = content
 
     // Slider Start
     const ClientSlider = {
@@ -59,22 +59,22 @@ const OurClient = ({ content }) => {
                         </div>
                         <div className="col-span-12 lg:col-span-4">
                             <Slider {...ClientSlider} className='clientSlider lg:w-7/12 xl:w-5/12 bottom-[7%] md:bottom-[33%] lg:bottom-[19%] right-0 mt-[25px] lg:mt-0'>
-                            {reviewContent.map((item, index) => (
-                                <div className="slide px-4 lg:px-12" key={index}>
-                                    <div className="client">
-                                        <Image src={item.image} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>{item.title}</h3>
+                                {reviewContent.map((item, index) => (
+                                    <div className="slide px-4 lg:px-12" key={index}>
+                                        <div className="client">
+                                            <Image src={item.image} width={69} height={69} alt='Clients' />
+                                            <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>{item.title}</h3>
+                                        </div>
+                                        <div className="reviews flex items-center gap-x-1">
+                                            <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
+                                            <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
+                                            <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
+                                            <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
+                                            <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
+                                        </div>
+                                        <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>{item.para}</p>
                                     </div>
-                                    <div className="reviews flex items-center gap-x-1">
-                                        <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
-                                        <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
-                                        <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
-                                        <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
-                                        <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
-                                    </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>{item.para}</p>
-                                </div>
-                            ))}
+                                ))}
                                 {/* <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client2} width={69} height={69} alt='Clients' />

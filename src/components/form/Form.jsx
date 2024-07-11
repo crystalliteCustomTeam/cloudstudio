@@ -10,7 +10,7 @@ import { Star } from 'heroicons-react'
 // Images 
 import HandAnimation from "media/animations/hand-animation.gif"
 
-const Form = ({content}) => {
+const Form = ({ content }) => {
     const { title, para } = content;
     return (
         <>
@@ -18,7 +18,7 @@ const Form = ({content}) => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="form bg-[#F5090B] rounded-xl px-4 md:px-6 py-4">
                         <h2 className='text-[18px] md:text-[25px] font-sans font-bold leading-[25px] md:leading-[60px] text-white'>{title}</h2>
-                                                                                                           
+
                         <p className='text-[13px] md:text-[16px] lg:text-[18px] font-sans text-white'>{para}</p>
                         <form action="javascript:;" className='pt-5'>
                             <div className="lg:flex flex-wrap lg:justify-center items-center gap-3">
