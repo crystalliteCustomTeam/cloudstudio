@@ -15,7 +15,7 @@ const Animations = ({ content }) => {
         <section className='lg:pt-[70px] relative'>
             <div className="grid grid-cols-12">
                 <div className="col-span-12 px-3 md:px-5">
-                    <h2 className='text-center text-[25px] sm:text-[40px] lg:text-[50px] leading-[40px] lg:leading-[55px] font-bold font-sans mb-3 text-black'>{title}</h2>
+                    <h2 className='text-[20px] md:text-[25px] lg:text-[28px] xl:text-[36px] font-sans font-bold capitalize text-center text-black mb-2 sm:mb-6'>{title}</h2>
                     <p className='text-[13px] text-center sm:text-[16px] font-sans text-black leading-[19px] pb-6 lg:w-8/12 mx-auto md:mb-[75px]'>{para}</p>
                 </div>
             </div>

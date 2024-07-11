@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Explainer Videos - Cloud Studios Inc",
-    description: "Learn more about the passionate team driving innovation, precision, and storytelling mastery in every animated frame.",
+    title: "Accelerate Your Success Through Affordable Explainer Video Services.",
+    description: "Discover Cloud Studios' expertly crafted explainer videos that simplify complex ideas precisely. From concept to creation, we transform ideas into engaging visual stories that captivate audiences and amplify your brand's impact.",
     //===== OG Tags =====
     openGraph: {
-        title: 'Explainer Videos - Cloud Studios Inc',
-        description: 'Learn more about the passionate team driving innovation, precision, and storytelling mastery in every animated frame.',
+        title: 'Accelerate Your Success Through Affordable Explainer Video Services.',
+        description: "Discover Cloud Studios' expertly crafted explainer videos that simplify complex ideas precisely. From concept to creation, we transform ideas into engaging visual stories that captivate audiences and amplify your brand's impact.",
         url: '/explainer-videos',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

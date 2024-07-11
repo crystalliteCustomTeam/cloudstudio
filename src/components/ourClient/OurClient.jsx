@@ -14,7 +14,8 @@ import ClientImage from "media/home/client.png"
 import Client1 from "media/home/client1.png"
 import Client2 from "media/home/client2.png"
 
-const OurClient = () => {
+const OurClient = ({ content }) => {
+    const {title, para, reviewContent} = content
 
     // Slider Start
     const ClientSlider = {
@@ -50,18 +51,19 @@ const OurClient = () => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12 items-center">
                         <div className="col-span-12">
-                            <h2 className='text-[30px] sm:text-[45px] md:text-[50px] leading-tight font-bold font-sans text-center text-white mb-3'>Let’s Read What Our Clients Have to Say</h2>
-                            <p className='text-[13px] lg:text-[16px] leading-[21px] font-sans text-center text-white mx-auto mb-10'>If you can’t trust us, try trusting them.</p>
+                            <h2 className='text-[30px] sm:text-[45px] md:text-[50px] leading-tight font-bold font-sans text-center text-white mb-3'>{title}</h2>
+                            <p className='text-[13px] lg:text-[16px] leading-[21px] font-sans text-center text-white mx-auto mb-10'>{para}</p>
                         </div>
                         <div className="col-span-4 lg:col-span-8">
                             <Image src={ClientImage} alt='Clients' className='mt-[-57px] lg:mt-0 lg:mb-[-70px] lg:block hidden' />
                         </div>
                         <div className="col-span-12 lg:col-span-4">
                             <Slider {...ClientSlider} className='clientSlider lg:w-7/12 xl:w-5/12 bottom-[7%] md:bottom-[33%] lg:bottom-[19%] right-0 mt-[25px] lg:mt-0'>
-                                <div className="slide px-4 lg:px-12">
+                            {reviewContent.map((item, index) => (
+                                <div className="slide px-4 lg:px-12" key={index}>
                                     <div className="client">
-                                        <Image src={Client1} width={69} height={69} alt='Clients' />
-                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Vanessa Carpenter</h3>
+                                        <Image src={item.image} width={69} height={69} alt='Clients' />
+                                        <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>{item.title}</h3>
                                     </div>
                                     <div className="reviews flex items-center gap-x-1">
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
@@ -70,9 +72,10 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
-                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Cloud Studios Inc turned our ideas into pure magic! Their creativity knows no bounds, and the results totally blew us away!</p>
+                                    <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>{item.para}</p>
                                 </div>
-                                <div className="slide px-4 lg:px-12">
+                            ))}
+                                {/* <div className="slide px-4 lg:px-12">
                                     <div className="client">
                                         <Image src={Client2} width={69} height={69} alt='Clients' />
                                         <h3 className='text-[20px] md:text-[30px] text-white font-bold poppins'>Bradley Lynch</h3>
@@ -141,7 +144,7 @@ const OurClient = () => {
                                         <Star className='text-[15px] text-[#EE8526] w-[20px] h-[20px]' />
                                     </div>
                                     <p className='text-[13px] lg:text-[16px] text-white font-sans leading-tight lg:leading-[30px] pt-2'>Cloud Studios Inc worked wonders with CGI-VFX for our product. Their work took our marketing efforts to a whole new level and made us stand out in the market.</p>
-                                </div>
+                                </div> */}
                             </Slider>
                         </div>
                     </div>

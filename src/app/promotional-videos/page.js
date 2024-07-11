@@ -14,6 +14,8 @@ import Extraordinary from '@/components/Extraordinary/Extraordinary'
 // ===== Images 
 import BranShine from "media/promotional-videos/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
+import Client1 from "media/home/client1.png"
+import Client2 from "media/home/client2.png"
 
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
@@ -59,29 +61,35 @@ const page = () => {
 
   //===== Banner Section====//
   const lists = [
-    "- High Quality & Fast Video Animation Services",
-    "- Specialists in 2D & 3D Animation Services",
-    "- More than 1,500 satisfied clients",
-    "- Experience Fastest Turnaround Time",
+    "- No Limits to Creativity",
+    "- No Actors or Sets Required",
+    "- Easy & Quick to Make Changes",
+    "- Increased Audience Engagements",
+    "- Greater Return on Investments",
   ]
 
   const banner = {
-    title: <>Promotional Videos To
-      Get People Talking</>,
+    title: <>Excel Sales &  Marketing Practices
+      with Promotional Videos </>,
     para: <></>,
     list: lists,
     isList: true,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/916123936/rendition/2160p/file.mp4?loc=external&log_user=0&signature=24c295b2c8335f8419c5c7601315f8870ddbfdd2f5baa61704aaacbd7445a43f",
   }
 
+  // ==== Form
+  const formData = {
+    title: (<>🔥 Unlock Exclusive Savings with Our Bundled Video Animation Services & More! </>),
+    para: (<>🌟 Combine any promotional video order with any motion graphics or animation package to save big! Take advantage<br /> of this limited-time offer and bring your vision to life with stunning animations that tell your story. </>),
+  }
+
   //==== Animations Sections =====//
   const animations = {
-    title: <>Best Explainer Video Creation Service</>,
-    para: <>At Cloud Studios Inc our animators have magic in their hands with their perfect blend of creativity we create incredible visuals for your business. At every stage of the making we ensure our clients are fully aware of the project progress and are completely satisfied too. We cater a strong relationship with clients,
-      starting from your ideas,</>,
-    subtitleOne: <>Professional Animated Video</>,
-    subtitleTwo: <>Services For Diverse Businesses</>,
-    subpara: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
+    title: <>Let The Promotional Video Do All the Talking!</>,
+    para: <>Animated product promotional videos are a powerful tool to simplify complex concepts, making them easily digestible for your audience. They enhance user engagement, boost retention rates, and ultimately drive conversions. By illustrating your product’s features and benefits in a visually appealing manner, our promotional videos help build trust and credibility with your customers. Moreover, our animations are optimized for various platforms; this versatility makes it easier to reach a wider audience and enhance your marketing efforts. Whether launching a new product, explaining a service, or educating your customers, our animations provide a professional edge that sets you apart from the competition</>,
+    subtitleOne: <>Pitch Your Brand’s USP with Powerful Promo Videos </>,
+    subtitleTwo: <>Give Your Business A Face Value Your Customer Never Forgets</>,
+    subpara: <>Reinvent your brand’s marketing campaigns, build customer loyalty, and reinforce your brand with high-quality animated product promotional videos created by Cloud Studios Inc. Our expertly designed animations capture the audience’s attention in just a blink of an eye and convey your unique selling proposition (USP) compellingly. If you want to express your brand’s value proposition interactively – Capitalize on our promotion videos and give your brand the exposure it needs. Make your investments with the right video animation company – Cloud Studios Inc., where we help elevate your marketing campaigns, foster customer loyalty, and solidify your brand presence with our top-notch animation services.</>,
     AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/916123974/rendition/1440p/file.mp4?loc=external&log_user=0&signature=9d6d78c0847109390b98e85f6664c9604c11f6f12253752ce898a64919140440",
   }
 
@@ -226,8 +234,8 @@ const page = () => {
     ],
   ];
   const portfolio = {
-    title: (<> Our Flamboyant Vault of Video Animation </>),
-    para: (<>Our creative prospectus, over the years, has garnered quite a reputation for itself. <br /> Here’s the evidence:</>),
+    title: (<> Our Award-winning Video Animation Fort-Knox. </>),
+    para: (<>Immerse yourself in our portfolio of high-impact promotional videos. Witness how our innovative animations<br /> drive engagement, boost conversions, and redefine brand success for our clients globally!</>),
     tabContents: tabContents,
     tabsInfo: true,
     tabInfo: tabInfo,
@@ -236,9 +244,9 @@ const page = () => {
 
   // ==== brands Start
   const brands = {
-    title: "Broad-Cast Your Brand Worldwide Through Custom Animated Videos!",
+    title: "Revolutionize Your Marketing Efforts with Promotional Content ",
     subtitle: "",
-    desc: "At Cloud Studios Inc we exhibit professionalism through our animated videos, we deliver to our prestigious clients. Our Videos bring interest and spirit to your subject. Our animators create and present even the most complicated concepts in the simplest way possible. At Cloud Studios Inc we take care of every feature of your corporate identity. We assure you that we will make use of every latest and related method to develop and improve your corporate identity in the market with our best video service.",
+    desc: "Transform your marketing campaigns with Cloud Studios Inc.'s attention-grabbing promotional videos. Our animations are designed to increase brand exposure and reach new customers, ensuring your business stands out in a crowded market. By leveraging our tailor-made promotional animations across social media channels to engage a broad audience and maximize impact. Partner with Cloud Studios Inc. to reform your brand and achieve unparalleled marketing success.",
     branImage: BranShine,
     isBranImage: true,
     css: "mx-auto w-9/12",
@@ -248,28 +256,28 @@ const page = () => {
   //==== remarkable start =====//
 
   const cardOne = {
-    cardtitle: <>Professional Script Writing</>,
-    cardpara: <>Our exceptional script writers ensure to achieve the goal of plotting out your whole story in their write-up, because the more detailed we make our outline, the less time we will have to waste down the road. By building a strong story is the key to keeping the audience engaged, driving the story forward and making them take the action.</>,
+    cardtitle: <>Understanding Your Concept</>,
+    cardpara: <>At Cloud Studios, we begin by thoroughly understanding your requirements to ensure the final product aligns perfectly with your vision. Our highly qualified experts dive deep into understanding your desired animation style, vision, and length to deliver a tailored animation experience</>,
     css: "mb-[-52px]",
     imageCss: 'min-w-[250px] max-w-[250px] max-h-[300px] mb-[-33px]',
     cardImage: Remark10,
   }
   const cardTwo = {
-    cardtitle: <>Storyboarding & Sequencing</>,
-    cardpara: <>After creating a professional and engaging script, the experts at Cloud Studios Inc move towards the next phase of 2D Animation creation process, which is ‘Storyboarding & Sequencing’. A storyboard or a sequence is a visual representation of a video sequence and breaks down the action into individual panels. </>,
+    cardtitle: <>Storyboard and Sequencing</>,
+    cardpara: <>The production journey starts with meticulous storyboarding. We create a detailed graphic representation of your animated video, shot by shot. Each frame is carefully illustrated, accompanied by notes that outline the narrative and actions unfolding on screen, ensuring a coherent and engaging visual story. </>,
     css: "",
     imageCss: "absolute right-0 bottom-[-17px] w-full",
     cardImage: Remark11,
   }
   const cardThree = {
-    cardtitle: <>Animation And Music</>,
-    cardpara: <>After designing the animation backgrounds/characters/product model as per your requirement, now it's time for the namesake job of the 2D animation design process. At Cloud Studios Inc, our professionals in this phase craft the actual engagement in the animation. This is the stage where a lot of creative magic happens! </>,
+    cardtitle: <>Animation</>,
+    cardpara: <>Harnessing our creative expertise, we bring your storyboard to life in this phase. By integrating voice-overs, illustrations, and scripts, we craft a visually stunning and emotionally engaging animation that captivates your audience and communicates your message effectively. </>,
     css: "absolute bottom-[-1px] lg:w-full left-0 right-0 ",
     cardImage: Remark12,
   }
   const cardFour = {
-    cardtitle: <>Animation Design</>,
-    cardpara: <>After storyboarding and setting the visual representation of your 2D animation video, we move to our next important step, which is ‘Animation Designing’. At this stage of the 2D animation process, our 2D animators further visualize the story and add style following the brand guidelines of the client. </>,
+    cardtitle: <>Editing and Post Production</>,
+    cardpara: <>In the refining phase, we meticulously review the animation, ensuring every detail is polished to perfection. We fine-tune transitions, adjust timing, and incorporate feedback to guarantee a seamless and impactful final product that exceeds your expectations. </>,
     css: "w-full absolute bottom-0 left-0",
     cardCss: "h-full min-h-[560px]",
     cardImage: Remark13,
@@ -285,19 +293,18 @@ const page = () => {
     cardImage: "",
   }
   const cardTen = {
-    cardtitle: <>Finalizing & Delivery</>,
-    cardpara: <>THAT’S IT, your 2D animation video is complete and ready to rock and roll! Cloud Studios Inc will deliver it to you as HD 1080p MOV or MP4 file, ready for download. In case, you need any other format for your video, we are here to cater to your that requirement as well. If you need help figuring out how to host your video, where to place it, or how to market it in the best possible manner, Cloud Studios Inc is happy to point you in the right direction!
+    cardtitle: <>Delivery and Feedback</>,
+    cardpara: <>Upon completion, we will deliver your finalized animation and welcome your feedback. Your satisfaction is our priority, and we're committed to ensuring the animation aligns with your vision and objectives. We provide support throughout the delivery process, ensuring a smooth experience from start to finish.
       <br /><br />
-      Hire us today to discuss your 2D animation video project with our experts. If you’d like to know more information on our 2D animation process, let’s set up a time to chat or call!
+      AND WE ARE DONE! The result? An attention-grabbing promotional video masterpiece that will mesmerize your audience. Your final video will be delivered in stunning high-definition 1080p quality, available in MOV or MP4 format for effortless integration into your marketing campaigns. With Cloud Studios Inc., you can expect a scalable solution poised to make an immediate and lasting impact."
     </>,
     css: "w-10/12 mb-[-40px]",
     cardImage: Remark14,
   }
 
   const remarkable = {
-    title: <>How We Achieve Remarkable Outcomes</>,
-    para: <>At Cloud Studios Inc, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors <br />
-      or smaller projects. Every detail is considered in our comprehensive approach to ensure excellence in every animation project.</>,
+    title: <>Sneak Peek to Our 3D Animation Production Process That Drives Results!</>,
+    para: <>Discover the meticulous steps behind Cloud Studios Inc.'s exceptional promo video production process, designed to deliver outstanding results.<br /> From crafting compelling scripts to creating immersive 2D/3D cartoon animation videos and adding professional voiceovers,<br /> we do it all to make your project ‘A BIG HIT.’ </>,
     cardOne: cardOne,
     cardTwo: cardTwo,
     cardThree: cardThree,
@@ -310,25 +317,60 @@ const page = () => {
 
   // ===== sales
   const sales = {
-    title: "The Best Video Animation Services Are Just a Click Away!",
+    title: "Cutting-edge promotion videos are just a tap away!",
     subtitle: "",
     desc: "",
     branImage: SaleShine,
+    btnTitle: "Grab your bag of chips, and let's get the ball rolling!"
+  }
+
+  // ===== OurClient
+  const ourClient = {
+    title: "See what our clients have to say!",
+    para: "Trust Earned is Trust Is Endured!",
+    reviewContent: [
+      {
+        image: Client1,
+        title: 'Matthew Roberts',
+        para: `Cloud Studios Inc. has been an absolute pleasure to work with. Their team demonstrated absolute professionalism from the initial concept discussions to the final delivery. They took our vision and turned it into a masterpiece—a promotional video that captured our brand's essence and resonated deeply with our audience. We look forward to collaborating with Cloud Studios on future projects!`
+      },
+      {
+        image: Client2,
+        title: 'Samantha Davis',
+        para: `I cannot speak highly enough of Cloud Studios Inc. Their technical expertise in creating high-definition HD promo videos is exceptional. They approached our promotional video project enthusiastically and creatively, ensuring everything—from script development to animation and post-production—was handled precisely. I loved the result; it was a visually stunning and impactful video. I would recommend them to anyone looking to elevate their brand through animation. `
+      },
+      {
+        image: Client1,
+        title: 'Daniel Evans',
+        para: `Choosing Cloud Studios Inc. for our promotional video was one of our best decisions. Their team understood our vision and brought it to life in a way that surpassed all our hopes. The dedication and professionalism they displayed throughout the process were remarkable. They listened to our feedback, incorporated our ideas seamlessly, and delivered a final product that impressed us. `
+      },
+      {
+        image: Client2,
+        title: 'Victoria Lee',
+        para: `Working with Cloud Studios Inc. was a transformative experience for our marketing team. They took the time to understand our brand's unique voice and audience, ensuring that every frame of our promotional video was crafted to perfection. Their creative approach and technical proficiency resulted in a video that captured our attention and effectively communicated our message. We are thrilled with the outcome and grateful for the collaborative and professional partnership we found with Cloud Studios.`
+      }
+    ]
+  }
+
+  // ===== extraOrdinary
+  const extraOrdinary = {
+    title: (<>Let’s Conceptualize and Design Your Idea with Creative Professionals!</>),
+    para: (<>Let us help you kickstart your marketing campaign with eye-catching company promo videos for your business. Rise Above the Clatter with First-Class Promotional Videos!</>),
   }
 
 
   return (
     <>
       <InnerBanner content={banner} />
-      <Form />
+      <Form content={formData} />
       <Animations content={animations} />
       {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
-      {/* <Animation /> */}
+      {/* {/* <Animation /> */} */}
       <Brand content={sales} />
-      <OurClient />
-      <Extraordinary />
+      <OurClient content={ourClient} />
+      <Extraordinary content={extraOrdinary}/>
     </>
   )
 }

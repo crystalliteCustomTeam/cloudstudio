@@ -8,12 +8,12 @@ import "./global.css";
 export const metadata = {
     metadataBase: new URL('https://cloudstudiosinc.com/'),
     //===== Meta Tags =====
-    title: "Premium Video Animation Services | Cloud Studios Inc",
-    description: "Embrace the juncture and vivify your narrative through impeccable craftsmanship, alongside an all-inclusive suite of video animation and 3D animation services.",
+    title: "Cloud Studios Inc: Cutting-Edge Video Animation Studio in USA.",
+    description: "Cloud Studios Inc. delivers innovative animation, video production, and VFX solutions. From cel animation, hybrid animation, 3d visualization, and AR/VR augmentation to real-time rendering – we are the 'destination' for your brand's success",
     //===== OG Tags =====
     openGraph: {
-        title: "Premium Video Animation Services | Cloud Studios Inc",
-        description: "Embrace the juncture and vivify your narrative through impeccable craftsmanship, alongside an all-inclusive suite of video animation and 3D animation services.",
+        title: "Cloud Studios Inc: Cutting-Edge Video Animation Studio in USA.",
+        description: "Cloud Studios Inc. delivers innovative animation, video production, and VFX solutions. From cel animation, hybrid animation, 3d visualization, and AR/VR augmentation to real-time rendering – we are the 'destination' for your brand's success",
         url: '/',
         siteName: 'Cloud Studios Inc',
         locale: 'en_US',

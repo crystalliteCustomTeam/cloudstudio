@@ -16,6 +16,8 @@ import Extraordinary from '@/components/Extraordinary/Extraordinary'
 import BranShine from "media/3d-animation/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
 import BannerImage from "media/3d-animation/3d-banner.png"
+import Client1 from "media/home/client1.png"
+import Client2 from "media/home/client2.png"
 
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
@@ -61,14 +63,14 @@ const page = () => {
 
   //===== Banner Section====//
   const lists = [
-    "- High Quality & Fast Video Animation Services",
-    "- Specialists in 2D & 3D Animation Services",
-    "- More than 1,500 satisfied clients",
-    "- Experience Fastest Turnaround Time",
+    "- Dynamic 3D simulations",
+    "- Precise 3D modeling and rendering",
+    "- Immersive 3D animations to drive the informed purchase",
+    "- Stunning realism and fluid animation",
   ]
 
   const banner = {
-    title: <>3D Animation That Inspires Customers To Purchase More </>,
+    title: <>Enhance Your Conversion Rates with Hyper-Realistic 3D Animations </>,
     para: <></>,
     list: lists,
     isList: true,
@@ -77,12 +79,18 @@ const page = () => {
 
   //==== Animations Sections =====//
   const animations = {
-    title: <>Stunning 3D Animation Service</>,
-    para: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
-    subtitleOne: <>Professional Animated Video</>,
-    subtitleTwo: <>Services For Diverse Businesses</>,
-    subpara: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
+    title: <>3D Animations – ‘The Game-Changer’ In Visual Storytelling</>,
+    para: <>Not all 3D product videos are created equal. As a leading product animation company, Cloud Studios Inc. understands the critical importance of aligning animation styles with your brand identity and product objectives. By leveraging advanced 3D modeling techniques, we eliminate the need for costly and time-consuming product shoots, allowing you to present your products in a hyper-realistic and dynamic format. Our team of skilled artists meticulously crafts detailed 3D models, integrating sophisticated textures, special effects, and strategic embellishments. This technical expertise ensures that your product is the ‘star of the show,’ showcasing its features and benefits with exceptional clarity and visual appeal that engage and convert your audience.</>,
+    subtitleOne: <>Empowering Brands to Grow!</>,
+    subtitleTwo: <>Jaw-dropping 3D Animation Services that Create the Real Buzz!</>,
+    subpara: <>Cloud Studios Inc. caters to businesses of all sizes, from industry giants to emerging startups. Our hyper-realistic 3D animations and explainer videos simplify complex features with clear, engaging visuals, showcasing products in real-life settings and practical applications. We provide faster, budget-friendly solutions that create stunning visuals, keeping viewers engaged and boosting sales. Additionally, our character-driven animations introduce spokespersons or brand mascots that connect with audiences on an emotional level, enhancing brand loyalty and recognition.</>,
     AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/916117105/rendition/720p/file.mp4?loc=external&log_user=0&signature=923260b1c7032379e26fa6aeba225548aa77d407720fdc9b5904828132bc9a88",
+  }
+
+  // ==== Form
+  const formData = {
+    title: (<>🔥 Get More Done All in One Place! </>),
+    para: (<>🌟 Combine any services you need, from 3D animations to motion graphics to all things included in your brand’s <br/>animation production project—you name it, we'll make a plug-and-play package deal for it.</>),
   }
 
   //=====Portfilio Fold=====// 
@@ -226,8 +234,8 @@ const page = () => {
     ],
   ];
   const portfolio = {
-    title: (<> Our Flamboyant Vault of Video Animation </>),
-    para: (<>Our creative prospectus, over the years, has garnered quite a reputation for itself. <br /> Here’s the evidence:</>),
+    title: (<> Our Award-winning Video Animation Fort-Knox. </>),
+    para: (<>We’ve got groundbreaking, scalable 3D video solutions and a rendering portfolio you <br />won’t miss checking out.</>),
     tabContents: tabContents,
     tabsInfo: true,
     tabInfo: tabInfo,
@@ -236,9 +244,9 @@ const page = () => {
 
   // ==== brands Start
   const brands = {
-    title: "Broad-Cast Your Brand Worldwide Through Custom Animated Videos!",
+    title: "Define your Business Digitally with 3D Animations Services That Magnetize Target Audiences!",
     subtitle: "",
-    desc: "At Cloud Studios Inc we exhibit professionalism through our animated videos, we deliver to our prestigious clients. Our Videos bring interest and spirit to your subject. Our animators create and present even the most complicated concepts in the simplest way possible. At Cloud Studios Inc we take care of every feature of your corporate identity. We assure you that we will make use of every latest and related method to develop and improve your corporate identity in the market with our best video service.",
+    desc: "Empower your digital presence with Cloud Studios Inc.'s precision-crafted 3D animation videos strategically designed to captivate your target audience. Utilizing cutting-edge software and expert knowledge, we specialize in delivering comprehensive 3D architectural animation services tailored for diverse applications in movies, games, and digital platforms. Our advanced services are sought after by leading companies seeking to breathe life into. From creating lifelike characters to bringing fantasy figures to vivid reality, our meticulous process ensures the production of high-end photoreal 3D character animation projects resonates deeply with viewers, setting your brand apart in the saturated market.",
     branImage: BranShine,
     isBranImage: true,
     css: "lg:min-h-[350px] lg:w-10/12 animationUpDown",
@@ -248,27 +256,27 @@ const page = () => {
   //==== remarkable start =====//
 
   const cardOne = {
-    cardtitle: <>Professional Script Writing</>,
-    cardpara: <>Our exceptional script writers ensure to achieve the goal of plotting out your whole story in their write-up, because the more detailed we make our outline, the less time we will have to waste down the road. By building a strong story is the key to keeping the audience engaged, driving the story forward and making them take the action.</>,
+    cardtitle: <>Briefing and Storyboarding</>,
+    cardpara: <>The process starts with a comprehensive briefing session where our team dives deep into understanding your brand essence and creative vision. Collaboratively, we outline the storyboard—a visual blueprint that maps out each scene, camera angles, character interactions, and key narrative beats. This meticulous planning stage ensures alignment with your objectives and sets the foundation for a compelling 3D animation.</>,
     css: "",
     imageCss: 'w-auto',
     cardImage: Remark10,
   }
   const cardTwo = {
-    cardtitle: <>Storyboarding & Sequencing</>,
-    cardpara: <>After creating a professional and engaging script, the experts at Cloud Studios Inc move towards the next phase of 2D Animation creation process, which is ‘Storyboarding & Sequencing’. A storyboard or a sequence is a visual representation of a video sequence and breaks down the action into individual panels. </>,
+    cardtitle: <>3D Modeling</>,
+    cardpara: <>With the storyboard approved, our skilled artists commence the 3D modeling phase. Using cutting-edge software, they sculpt digital models of characters, assets, and environments based on the storyboard specifications. This step focuses on achieving accuracy, detail, and visual appeal while maintaining fidelity to your brand's identity and creative direction. </>,
     css: "",
     cardImage: Remark11,
   }
   const cardThree = {
-    cardtitle: <>Animation And Music</>,
-    cardpara: <>After designing the animation backgrounds/characters/product model as per your requirement, now it's time for the namesake job of the 2D animation design process. At Cloud Studios Inc, our professionals in this phase craft the actual engagement in the animation. This is the stage where a lot of creative magic happens! </>,
+    cardtitle: <>Texturing and Rigging</>,
+    cardpara: <>Once the 3D models are created, they undergo texturing—a process where realistic surfaces, colors, and textures are applied to enhance visual depth and realism. Concurrently, our team rigs the models, assigning digital skeletons and controls that facilitate lifelike movements. This meticulous preparation ensures that characters and objects behave naturally during animation, adhering to the narrative's emotional and physical requirements. </>,
     css: "w-full absolute bottom-[-3px] lg:w-11/12",
     cardImage: Remark12,
   }
   const cardFour = {
-    cardtitle: <>Animation Design</>,
-    cardpara: <>After storyboarding and setting the visual representation of your 2D animation video, we move to our next important step, which is ‘Animation Designing’. At this stage of the 2D animation process, our 2D animators further visualize the story and add style following the brand guidelines of the client. </>,
+    cardtitle: <>Layout and Animation</>,
+    cardpara: <>In the layout phase, our animators position the 3D models within digital environments, establishing spatial relationships and camera placements as per the storyboard. Here, animation breathes life into the narrative—each movement and expression is meticulously crafted to convey emotions, actions, and storytelling nuances. Whether character performances or dynamic object interactions, this stage brings your narrative to vivid, engaging life. </>,
     css: "",
     cardImage: Remark13,
   }
@@ -283,17 +291,19 @@ const page = () => {
     cardImage: "",
   }
   const cardTen = {
-    cardtitle: <>Finalizing & Delivery</>,
-    cardpara: <>THAT’S IT, your 2D animation video is complete and ready to rock and roll! Cloud Studios Inc will deliver it to you as HD 1080p MOV or MP4 file, ready for download. In case, you need any other format for your video, we are here to cater to your that requirement as well. If you need help figuring out how to host your video, where to place it, or how to market it in the best possible manner, Cloud Studios Inc is happy to point you in the right direction!
+    cardtitle: <>Rendering</>,
+    cardpara: <>Rendering marks the final stage, where the animated scenes are processed into high-resolution images or frames. We use powerful rendering software and hardware to ensure that every detail—from lighting and shadows to textures and visual effects—is meticulously polished. This meticulous attention to detail culminates in a visually stunning 3D animation that aligns seamlessly with your brand’s identity and resonates with your target audience.
       <br /><br />
-      Hire us today to discuss your 2D animation video project with our experts. If you’d like to know more information on our 2D animation process, let’s set up a time to chat or call!
+      THAT’S IT! Our streamlined 3D animation process—from briefing and storyboarding through modeling, texturing, rigging, animation, and rendering—ensures a cohesive and impactful visual narrative. We deliver high-definition, ready-to-deploy, 1080p video files in your MOV or MP4 animation files that captivate audiences and elevate brand storytelling. 
+      <br /><br />
+      Connect with our experienced 3D modeling industry experts, ready to help you produce awe-inspiring 3D assets for your project.
     </>,
     css: "",
     cardImage: Remark14,
   }
 
   const remarkable = {
-    title: <>How We Achieve Remarkable Outcomes</>,
+    title: <>How Do We Turn Basic Sketches into Interactive 3D Product Animations?</>,
     para: <>At Cloud Studios Inc, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors <br />
       or smaller projects. Every detail is considered in our comprehensive approach to ensure excellence in every animation project.</>,
     cardOne: cardOne,
@@ -308,25 +318,62 @@ const page = () => {
 
   // ===== sales
   const sales = {
-    title: "The Best Video Animation Services Are Just a Click Away!",
+    title: "Cutting-edge 3D Animation Services are just a tap away!",
     subtitle: "",
     desc: "",
     branImage: SaleShine,
+    btnTitle: "Grab your bag of chips, and let's get the ball rolling!"
+  }
+
+  // ===== OurClient
+
+  const ourClient = {
+    title: "See what our clients have to say!",
+    para: "Trust Earned is Trust Is Endured!",
+    reviewContent: [
+      {
+        image: Client1,
+        title: 'Ava Reynolds',
+        para: `Cloud Studios transformed our project with their exceptional 3D animations. I just loved how they exceeded our expectations by animating as highly realistic animations as possible. I'm grateful for their expertise in bringing our vision to life!`
+      },
+      {
+        image: Client2,
+        title: 'Lucas Bennett',
+        para: `Working with Cloud Studios was a breeze; hat’s off to the team! Their 3D animation team demonstrated outstanding skill and professionalism throughout the project. They delivered stunning visuals that perfectly captured our brand's story and message. `
+      },
+      {
+        image: Client1,
+        title: 'Harper Mitchell',
+        para: `Cloud Studios' 3D animations are nothing short of impressive. Their ability to blend creativity with technical precision is remarkable. It was a pleasure collaborating with such a dedicated and talented team. 5 stars for their services! `
+      },
+      {
+        image: Client2,
+        title: 'Logan Sullivan',
+        para: `I'm thrilled with the results from Cloud Studios Inc. Their 3D animations added a new dimension to our marketing campaign, engaging our audience like never before. Their commitment to quality and innovation sets them apart.`
+      }
+    ]
+  }
+
+
+  // ===== extraOrdinary
+  const extraOrdinary = {
+    title: (<>From Sketch to Spectacular – Bring Out the True Essence of Your Brand </>),
+    para: (<>Get ready to boost traffic and audience engagement with Cloud Studios 3D animation services that will take your business to new heights. </>),
   }
 
 
   return (
     <>
       <InnerBanner content={banner} />
-      <Form />
+      <Form content={formData}/>
       <Animations content={animations} />
       {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
-      {/* <Animation /> */}
+      {/* {/* <Animation /> */} */}
       <Brand content={sales} />
-      <OurClient />
-      <Extraordinary />
+      <OurClient content={ourClient} />
+      <Extraordinary content={extraOrdinary} />
     </>
   )
 }

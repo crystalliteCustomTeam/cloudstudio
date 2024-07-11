@@ -13,6 +13,8 @@ import Extraordinary from '@/components/Extraordinary/Extraordinary'
 // ===== Images 
 import BranShine from "media/home/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
+import Client1 from "media/home/client1.png"
+import Client2 from "media/home/client2.png"
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
 import Thumnail2 from "media/thumbnails/2d-animation/2.jpg"
@@ -198,9 +200,16 @@ const page = () => {
       }
     ],
   ];
+
+  // ==== Form
+  const formData = {
+    title: (<>🔥 Special Bundle Offers on Video Animation & So Much More! </>),
+    para: (<>🌟 Bundle a motion graphics package with any animation order and save 25% off the combined price – experience the <br /> best-in-class video animation solutions today!</>),
+  }
+  
   const portfolio = {
-    title: (<> Our Flamboyant Vault of Video Animation </>),
-    para: (<>Our creative prospectus, over the years, has garnered quite a reputation for itself. <br /> Here’s the evidence:</>),
+    title: (<> Our Award-winning Video Animation Fort-Knox </>),
+    para: (<>Experience our video animation and rendering portfolio and see what we have done for<br />  our clients globally! </>),
     tabContents: tabContents,
     tabsInfo: true,
     tabInfo: tabInfo,
@@ -209,9 +218,9 @@ const page = () => {
 
   // ==== brands Start
   const brands = {
-    title: "We Are Ready…But Are You?",
-    subtitle: "Your Brand Deserves Only the Best! 🤓",
-    desc: "Within the halls of Cloud Studios Inc, we embody professionalism, epitomized through our tailored animated creations, methodically tailored for our esteemed clientele. Infused with vitality and intrigue, our videos serve as dynamic vehicles for conveying your message. Our adept animators specialize in translating even the most intricate concepts into visual narratives. At Cloud Studios Inc, we handle every facet of your corporate identity with precision, leveraging the latest methodologies to amplify your brand's presence in the market through our top-tier video services, spanning video explainer, explainer videos, video animation, 2D animation services, 3D animation services, and whiteboard animation.",
+    title: "We are ready to push your brand further...are you?",
+    subtitle: "Let us focus on the animation while you focus on your business! 🤓",
+    desc: "At Cloud Studios, we're the leading edge of visual narrative, seamlessly melding state-of-the-art technology with creative solutions. Our armory includes a 500+ node 4K render farm, an adaptive pipeline combining the best practices and proprietary software, and AI-enhanced procedural animation systems. From cel animation to real-time rendering, our diverse team comprises leading and nominated VFX supervisors, animation experts, and classically trained artists who redefine boundaries in animation and visual effects. We are not just content creators; we are innovators at heart. We produce stunning visual experiences that enrapture and provoke your brand's core identity while boosting your engagement levels with your audiences.",
     branImage: BranShine,
     isBranImage: true,
     css: "lg:min-h-[550px] xl:w-10/12 animationUpDown",
@@ -222,24 +231,24 @@ const page = () => {
   //==== remarkable start =====//
 
   const cardOne = {
-    cardtitle: <>Concept and Storyboards</>,
-    cardpara: <>During the video animation process, we retain your concept, and we keep you posted by showing you the storyboard first.</>,
+    cardtitle: <>Storyboarding & Concept Development</>,
+    cardpara: <>We visualize narrative flow through detailed storyboards and concept art. Further, we refine visual style, character designs, and critical story moments.</>,
     css: "w-8/12 mx-auto",
     cardImage: Remark1,
   }
   const cardTwo = {
-    cardtitle: <>Texturing</>,
-    cardpara: <>Our 3D animation services comprise a series of procedural methods ensuring that the end result turns out to be not just impeccable, but flawless as well.</>,
+    cardtitle: <>3D Modeling & Texturing</>,
+    cardpara: <>Our experts create high-fidelity 3D models based on approved concept designs. Animators then apply detailed textures and materials for realistic or stylized looks.</>,
     cardImage: Remark2,
   }
   const cardThree = {
-    cardtitle: <>Rigging</>,
-    cardpara: <>Rigging is an essential step in 3D animation services, as it allows animators to manipulate the 3D model and make it move in whatever way you want it to be.</>,
+    cardtitle: <>Rigging & Animation</>,
+    cardpara: <>We develop complex skeletal structures and control systems for characters and objects – we animate using keyframe techniques, motion capture data or procedural systems.</>,
     cardImage: Remark3,
   }
   const cardFour = {
-    cardtitle: <>Lightings</>,
-    cardpara: <>Lighting in 3D animation services is much like lighting in filmmaking. The lighting artist sets up a combination of light sources to draw attention to a special part of the setting.</>,
+    cardtitle: <>Rendering & Compositing</>,
+    cardpara: <>Our team utilizes advanced rendering engines to generate final images or animation frames. The execution experts composite rendered elements, add visual effects, and color grade for the final product.</>,
     cardImage: Remark4,
   }
   const cardFive = {
@@ -269,9 +278,8 @@ const page = () => {
   }
 
   const remarkable = {
-    title: <>Our Rigor of Achieving Extraordinary Outcomes</>,
-    para: <>When it comes to video animation, we make sure that nothing hinders our dedication. We take creative obstacles as challenges, <br />
-      that’s why we only provide the best 3D animation services.</>,
+    title: <>How do we achieve outcomes that are beyond extraordinary?</>,
+    para: <>We pump a lot of heart and soul into every project we take on, and our key to success is pretty simple – we squeeze the life out of challenges. Our team goes above and beyond to deliver quality video animation products.</>,
     cardOne: cardOne,
     cardTwo: cardTwo,
     cardThree: cardThree,
@@ -286,17 +294,54 @@ const page = () => {
 
   // ===== sales
   const sales = {
-    title: "The Best Video Animation Services Are Just a Click Away!",
+    title: "Cutting-edge Video Animation Services are just a tap away",
     subtitle: "",
     desc: "",
     branImage: SaleShine,
+    btnTitle: "Grab your bag of chips, and let's get the ball rolling!"
+  }
+
+  // ===== OurClient
+
+  const ourClient = {
+    title: "See what our clients have to say!",
+    para: "Trust Earned is Trust Is Endured!",
+    reviewContent: [
+      {
+        image: Client1,
+        title: 'Sarah Benny',
+        para: `Cloud Studios turned our architectural concept into a mind-blowing 3D walkthrough! Their visualization skills are out of this world. It felt like I was strolling through our future building. 10/10. I would recommend it to any architect or real estate developer!`
+      },
+      {
+        image: Client2,
+        title: 'Michelle Joanna',
+        para: `OMG! The cel animation the studio created for our indie film was pure magic! They somehow captured the nostalgia of old-school cartoons while adding a modern twist. Our characters came to life in ways we never imagined. These guys are animation wizards! `
+      },
+      {
+        image: Client1,
+        title: 'Rusell J. Peters',
+        para: `Holy hybrid animation, Superman! Cloud Studios mixed 2D and 3D like nobody's business for our superhero series. The result? It was an eye-popping visual feast that had our fans buzzing! They're the real superheroes of animation!`
+      },
+      {
+        image: Client2,
+        title: 'Lisa Kevins',
+        para: `⚡🕹️ Vroom! The real-time rendering for our racing game is insanely good! The graphics are so smooth and realistic that players feel like they're actually behind the wheel. These folks have some serious horsepower in their rendering engines! 🏆`
+      }
+    ]
+  }
+
+
+  // ===== extraOrdinary
+  const extraOrdinary = {
+    title: (<>Exceptional Video Animation Services Await You!</>),
+    para: (<>What are you waiting for? The apocalypse? Well, we can make that happen, too, with our animation solutions. Enter the world of Cloud Studios and experience animation like never before.</>),
   }
 
 
   return (
     <>
       <Banner />
-      <Form />
+      <Form content={formData} />
       <Bussiness />
       <Assisted />
       {/* <Animation /> */}
@@ -304,8 +349,8 @@ const page = () => {
       <Brand content={brands} />
       <Remarkable content={remarkable} />
       <Brand content={sales} />
-      <OurClient />
-      <Extraordinary />
+      <OurClient content={ourClient} />
+      <Extraordinary content={extraOrdinary} />
     </>
   )
 }

@@ -32,12 +32,14 @@ const Banner = () => {
                             <Star className='text-[#FFD62B] text-[22px] w-[22px] h-[22px]' />
                         </div>
                         <div className="content">
-                            <p className='text-[13px] sm:text-[16px] text-black font-sans ms-2'><strong>4.8 out of 5</strong> (review rating) Over 1,200+ reviews</p>
+                            <p className='text-[13px] sm:text-[16px] text-black font-sans ms-2'>The New Frontier in Animation.</p>
                         </div>
-                    </div>
-                    <h1 className='text-[30px] sm:text-[35px] lg:text-[45px] font-bold text-black font-sans text-center leading-[35px] sm:leading-[45px] lg:leading-[55px] pt-2 md:pt-4 pb-2 md:pb-5' data-aos="fade-up" data-wow-duration="3s">Boost Sales with 3D Animation Services. <br className='md:block hidden' />
-                        Instantaneously Forge Explainer Videos!</h1>
-                    <p className='text-center text-[13px] sm:text-[16px] font-sans text-black leading-[19px] pb-6' data-aos="fade-up" data-wow-duration="3s">Our repertoire spans the spectrum from 2D animation services to 3D animation services, with the timeless allure<br /> of whiteboard animation bringing your visions to life.</p>
+                    </div>                                                                                                                                                                                                                  
+                    {/* <h1 className='text-[30px] sm:text-[35px] lg:text-[45px] font-bold text-black font-sans text-center leading-[35px] sm:leading-[45px] lg:leading-[55px] pt-2 md:pt-4 pb-2 md:pb-5' data-aos="fade-up" data-wow-duration="3s">Boost Sales with 3D Animation Services. <br className='md:block hidden' />
+                        Instantaneously Forge Explainer Videos!</h1> */}
+                    <h1 className='text-[20px] md:text-[25px] lg:text-[28px] xl:text-[36px] font-bold font-sans leading-[35px] sm:leading-[45px] text-center text-black pt-2 md:pt-4 ' data-aos="fade-up" data-wow-duration="3s">Revolutionize Your Digital Content  with <br className='md:block hidden' /> Cloud Studios Inc.</h1>
+                    <h2 className='text-[20px] md:text-[25px] lg:text-[28px] xl:text-[36px] font-bold font-sans leading-[35px] sm:leading-[45px] text-center text-black  pb-2 md:pb-5' data-aos="fade-up" data-wow-duration="3s">Engage Your Audiences & Boost Your Reach Today!</h2>
+                    <p className='text-center text-[13px] sm:text-[16px] font-sans text-black leading-[19px] pb-6' data-aos="fade-up" data-wow-duration="3s">We engineer dynamic video content, lead advancements in cutting-edge animation technology,<br className='md:block hidden' /> and create immersive digital worlds to push your brand into new virtual frontiers</p>
                     <div className="video w-full lg:w-6/12 mx-auto">
                         {banVideo.map((item, index) => (
                             <div key={index}>

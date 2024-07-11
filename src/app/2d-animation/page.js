@@ -12,6 +12,8 @@ import Extraordinary from '@/components/Extraordinary/Extraordinary'
 // ===== Images 
 import BranShine from "media/2d-animation/brandshine.png"
 import SaleShine from "media/home/salesimage.png"
+import Client1 from "media/home/client1.png"
+import Client2 from "media/home/client2.png"
 // ==== Thumnail Image
 import Thumnail1 from "media/thumbnails/2d-animation/1.jpg"
 import Thumnail2 from "media/thumbnails/2d-animation/2.jpg"
@@ -63,21 +65,29 @@ const page = () => {
   ]
 
   const banner = {
-    title: <>Full Service 2D Animation Service By Cloud Studios Inc</>,
-    para: <>Experience the magic of animation with Cloud Studios Inc. Where dreams unfold, and creativity takes flight. Unleash the extraordinary in every frame.</>,
+    title: <>Forge Better Engagement with 2D Animation Solutions by Cloud Studios Inc.</>,
+    para: <>Go beyond the limitations of traditional 2D animation with Cloud Studios' pioneering animation techniques. Our proprietary platform harnesses advanced volumetric data processing to imbue your visual content with unparalleled depth, dynamism, and dimensional impact.</>,
     list: lists,
     isList: false,
     bannerImage: "https://player.vimeo.com/progressive_redirect/playback/916116973/rendition/1080p/file.mp4?loc=external&log_user=0&signature=77fdc5bd531e7ad88bc093f0ed7a0b34f0c4b24122d3d126758e255b1a15575a",
   }
   //==== Animations Sections =====//
   const animations = {
-    title: <>Stunning 2D Animation Service</>,
-    para: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
-    subtitleOne: <>Professional Animated Video</>,
-    subtitleTwo: <>Services For Diverse Businesses</>,
-    subpara: <>Animated videos are a great way to fascinate your viewers with rich, intriguing, and playful scenes. It is evaluated according to a study that animations videos can boost your company sales upto around 49%. Our Cloud Studios Inc offers you the interactive, innovative approach to motion pictures creation in the 2D format in tight deadline terms and affordable prices. We are proud to have served top-notch names in the industry with our service.</>,
+    title: <>Animate Your Digital Frontier </>,
+    para: <>Immerse your audience in richly layered visual experiences where characters and environments exude a palpable sense of solidity, weight, and spatial realism. Our innovative workflows seamlessly integrate with your existing 2D toolsets, empowering you to uncompromisingly achieve your most ambitious design visions. Leveraging the power of our advanced 2D animation tools and techniques, our animated content significantly boosts message retention by up to 80% compared to static imagery.</>,
+    subtitleOne: <>Pushing the Boundaries of 2D Storytelling</>,
+    subtitleTwo: <>Your Holistic Animation Studio</>,
+    subpara: <>Cloud Studios' pioneering approach to 2D animation empowers brands to exceed the medium's traditional constraints. Our solutions elevate 2D visuals with depth, fluidity, and emotional resonance by integrating cutting-edge motion capture technology and generative AI algorithms. This allows marketers to craft dynamic, immersive narratives that forge deep, lasting connections with their target audiences. With Cloud Studios leading the charge, the future of 2D animation is poised to rewrite the rules of visual engagement.</>,
     AnimationVideo: "https://player.vimeo.com/progressive_redirect/playback/916096653/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2c1fbdcd7282fe2b314ed51948a2b8195b14b7d762295e12e88097ea4fc583e2",
   }
+
+  // ==== Form
+  const formData = {
+    title: (<>🔥 Special Bundle Offers on Video Animation & So Much More! </>),
+    para: (<>🌟 Bundle a motion graphics package with any animation order and save 25% off the combined price – experience the <br /> best-in-class video animation solutions today!</>),
+  }
+
+
   //=====Portfilio Fold=====// 
   const tabInfo = [
     { label: "2D Animations", index: 0 },
@@ -219,8 +229,8 @@ const page = () => {
     ],
   ];
   const portfolio = {
-    title: (<> Our Flamboyant Vault of Video Animation </>),
-    para: (<>Our creative prospectus, over the years, has garnered quite a reputation for itself. <br /> Here’s the evidence:</>),
+    title: (<> Our Award-winning Video Animation Fort-Knox </>),
+    para: (<>Experience our 2D animation and rendering portfolio and see what we have done for <br />our clients globally! </>),
     tabContents: tabContents,
     tabsInfo: true,
     tabInfo: tabInfo,
@@ -229,9 +239,9 @@ const page = () => {
 
   // ==== brands Start
   const brands = {
-    title: "Broad-Cast Your Brand Worldwide Through Custom Animated Videos!",
+    title: "Experience Multi-channel Success Through Video Animation!",
     subtitle: "",
-    desc: "At Cloud Studios Inc we exhibit professionalism through our animated videos, we deliver to our prestigious clients. Our Videos bring interest and spirit to your subject. Our animators create and present even the most complicated concepts in the simplest way possible. At Cloud Studios Inc we take care of every feature of your corporate identity. We assure you that we will make use of every latest and related method to develop and improve your corporate identity in the market with our best video service.",
+    desc: "At the heart of Cloud Studios' custom 2D animation solutions lies a pioneering synthesis of cutting-edge technologies. By leveraging the real-time 3D volumetric capture, our team can directly transfer live-action performances' exact physicality and expressive movements into vivid 2D frames. This unique technique retains the organic, human-centric elements that captivate consumers on a deeper emotional level. Complemented by advanced procedural techniques that generate dynamic backgrounds and environments, the result is 2D content that defies the medium's traditional limitations, delivering dimensional depth, cinematic immersion, and brand resonance that captivates viewers while strengthening tangible business impact. ",
     branImage: BranShine,
     isBranImage: true,
     css: "w-9/12 ml-auto",
@@ -242,27 +252,27 @@ const page = () => {
   //==== remarkable start =====//
 
   const cardOne = {
-    cardtitle: <>Professional Script Writing</>,
-    cardpara: <>Our exceptional script writers ensure to achieve the goal of plotting out your whole story in their write-up, because the more detailed we make our outline, the less time we will have to waste down the road. By building a strong story is the key to keeping the audience engaged, driving the story forward and making them take the action.</>,
+    cardtitle: <>Concept Ideation and Storyboard </>,
+    cardpara: <>Our creative team works closely with clients to capture their brand essence and creative vision into a cohesive narrative blueprint. Using powerful storyboarding tools, we methodically plan each scene, specifying the camera angles, character movements, and emotional beats that will serve as the foundation for the animated content. This strategic planning process ensures that the final animation is consistent with the client's goals and effectively communicates with the intended audience.</>,
     css: "w-8/12 mx-auto",
     cardImage: Remark10,
   }
   const cardTwo = {
-    cardtitle: <>Storyboarding & Sequencing</>,
-    cardpara: <>After creating a professional and engaging script, the experts at Cloud Studios Inc move towards the next phase of 2D Animation creation process, which is ‘Storyboarding & Sequencing’. A storyboard or a sequence is a visual representation of a video sequence and breaks down the action into individual panels. </>,
+    cardtitle: <>Motion Capture and Performance Optimization</>,
+    cardpara: <>We use cutting-edge motion capture technology to give our 2D animations a lifelike, human-centered quality. By precisely converting the tiny details of live-action performances into 2D keyframes, we can maintain the organic fluidity and expressive dynamism that engages viewers on a deeper emotional level. Our team then fine-tunes these digitized movements with unique animation optimization algorithms, effortlessly combining the authenticity of live action with the freedom of motion of hand-drawn animation. </>,
     css: " before:content-[''] before:h-[60%] before:w-full before:bg-[url('../../public/home/card_image-bg.png')] before:bg-cover before:bg-no-repeat before:bg-center before:absolute before:left-0 before:bottom-0 before:rounded-b-[15px] before:z-[-1] z-[999999999]",
     imageCss: 'w-full',
     cardImage: Remark11,
   }
   const cardThree = {
-    cardtitle: <>Animation And Music</>,
-    cardpara: <>After designing the animation backgrounds/characters/product model as per your requirement, now it's time for the namesake job of the 2D animation design process. At Cloud Studios Inc, our professionals in this phase craft the actual engagement in the animation. This is the stage where a lot of creative magic happens! </>,
+    cardtitle: <>Procedural Environment Generation</>,
+    cardpara: <>Recognizing that spatial depth is essential for immersive 2D storytelling, we use complex procedural techniques to dynamically produce the backgrounds, environments, and atmospheric elements that frame our animated stories. This generative approach enables us to build rich cinematic backdrops that evolve spontaneously in rhythm with the characters' actions, resulting in a genuine sense of three-dimensional space that defies the usual restrictions of 2D animation.  </>,
     css: "",
     cardImage: Remark12,
   }
   const cardFour = {
-    cardtitle: <>Animation Design</>,
-    cardpara: <>After storyboarding and setting the visual representation of your 2D animation video, we move to our next important step, which is ‘Animation Designing’. At this stage of the 2D animation process, our 2D animators further visualize the story and add style following the brand guidelines of the client. </>,
+    cardtitle: <>Immersive Audio Integration, Adaptive Cinematography </>,
+    cardpara: <>The use of rich, dramatic audio design enhances our 2D animations. By working collaboratively with award-winning composers and sound engineers, we create cinematic soundscapes that amplify the emotional impact of our animated stories. Our audio integration approach offers a genuinely immersive viewing experience, with visceral sound effects that bring the on-screen action to life and compelling musical soundtracks that accentuate the characters' internal journeys. </>,
     cardImage: Remark13,
   }
   const cardSeven = {
@@ -276,18 +286,19 @@ const page = () => {
     cardImage: "",
   }
   const cardTen = {
-    cardtitle: <>Finalizing & Delivery</>,
-    cardpara: <>THAT’S IT, your 2D animation video is complete and ready to rock and roll! Cloud Studios Inc will deliver it to you as HD 1080p MOV or MP4 file, ready for download. In case, you need any other format for your video, we are here to cater to your that requirement as well. If you need help figuring out how to host your video, where to place it, or how to market it in the best possible manner, Cloud Studios Inc is happy to point you in the right direction!
+    cardtitle: <>Integrative Brand Storytelling</>,
+    cardpara: <>The final stage of our 2D animation production is to seamlessly integrate the client's brand identity, messaging, and creative vision into the final animated content. Our team collaborates closely with in-house branding professionals to ensure that each visual aspect, from character design to color palette, captures the essence of the client's brand. This comprehensive method yields 2D animations that engage the audience and foster deep, long-term ties between the company and its customers.
       <br /><br />
-      Hire us today to discuss your 2D animation video project with our experts. If you’d like to know more information on our 2D animation process, let’s set up a time to chat or call!
+      THAT’S IT! The culmination of our innovative techniques results in a stunning 2D animation masterpiece - one that's ready to captivate your audience. Our team will deliver the final, high-definition 1080p video file in your MOV or MP4 format, providing you with a turnkey solution primed for immediate impact.
+      <br /><br />
+      So, Get ready to unlock the next dimension of 2D storytelling for your brand. Contact Cloud Studios today to get started on your custom animation project.
     </>,
     cardImage: Remark14,
   }
 
   const remarkable = {
-    title: <>How We Achieve Remarkable Outcomes</>,
-    para: <>At Cloud Studios Inc, our meticulous work process is intricately crafted to yield flawless outcomes, whether for large-scale endeavors <br />
-      or smaller projects. Every detail is considered in our comprehensive approach to ensure excellence in every animation project.</>,
+    title: <>How do we elevate the ordinary to the extraordinary?</>,
+    para: <>At Cloud Studios, we don't settle for good enough; we strive for extraordinary outcomes. The key to our success is our unwavering determination to extract every ounce of potential from even the most arduous challenges. Our team goes above and beyond to provide excellent video animation products.</>,
     cardOne: cardOne,
     cardTwo: cardTwo,
     cardThree: cardThree,
@@ -300,25 +311,62 @@ const page = () => {
 
   // ===== sales
   const sales = {
-    title: "The Best Video Animation Services Are Just a Click Away!",
+    title: "Cutting-edge 2D Animation Services are just a tap away!",
     subtitle: "",
     desc: "",
     branImage: SaleShine,
+    btnTitle: "Grab your bag of chips, and let's get the ball rolling!"
+  }
+
+  // ===== OurClient
+
+  const ourClient = {
+    title: "See what our clients have to say!",
+    para: "Trust Earned is Trust Is Endured!",
+    reviewContent: [
+      {
+        image: Client1,
+        title: 'Sophia Alvarez',
+        para: `Cloud Studios' 2D animation work is nothing short of awe-inspiring. The seamless integration of traditional artistry and cutting-edge technology results in breathtakingly beautiful and emotionally resonant visuals. Their creations transport the viewer to fully realized, captivating worlds.`
+      },
+      {
+        image: Client2,
+        title: 'Liam Donovan',
+        para: `Cloud Studios exceeded all our expectations, delivering a masterpiece that captivated our audience from the first frame. Their team's unparalleled creativity and technical mastery are genuinely remarkable. `
+      },
+      {
+        image: Client1,
+        title: 'Isabella Gutierrez ',
+        para: `Cloud Studios' 2D animations are infused with a palpable energy and emotional depth that elevates the art form. They have redefined what is possible, crafting cinematic experiences that leave a lasting impression on the viewer. Collaborating with their passionate and innovative team was an absolute privilege.`
+      },
+      {
+        image: Client2,
+        title: 'Ethan Kang',
+        para: `In a saturated market of generic 2D animation, Cloud Studios stands out as true visionaries. Their work looks beautiful and tells captivating stories that forge deep, lasting connections with the audience. I have never encountered a team that combines technical brilliance with such boundless creativity.`
+      }
+    ]
+  }
+
+
+  // ===== extraOrdinary
+  const extraOrdinary = {
+    title: (<>Reach New Creative Heights with Cloud Studios' Dimensional 2D Animation!</>),
+    para: (<>Harness the limitless potential of 2D animation services to elevate your brand's storytelling and enter the new world of artistic brilliance.</>),
   }
 
 
   return (
     <>
       <InnerBanner content={banner} />
-      <Form />
+      <Form content={formData}/>
       <Animations content={animations} />
       {/* <Portfolio content={portfolio} /> */}
       <Brand content={brands} />
       <Remarkable content={remarkable} />
       {/* <Animation /> */}
       <Brand content={sales} />
-      <OurClient />
-      <Extraordinary />
+      <OurClient content={ourClient} />
+      <Extraordinary content={extraOrdinary} />
     </>
   )
 }

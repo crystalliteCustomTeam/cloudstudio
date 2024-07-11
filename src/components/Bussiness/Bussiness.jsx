@@ -101,7 +101,9 @@ const Bussiness = () => {
                 <div className="px-5 lg:max-w-7xl mx-auto">
                     <div className="grid-cols-1">
                         <div className="content">
-                            <h2 className='text-[30px] md:text-[50px] leading-tight md:leading-[55px] font-sans font-bold text-center text-black mb-2 sm:mb-6'>Video Animation Services Guarantee <br /> Business Prosperity</h2>
+                            {/* <h2 className='text-[30px] md:text-[50px] leading-tight md:leading-[55px] font-sans font-bold text-center text-black mb-2 sm:mb-6'>Video Animation Combining Precision, <br /> Scalability & Branding Persona </h2> */}
+                            {/* <h2 className='text-[20px] md:text-[25px] lg:text-[28px] xl:text-[36px] font-bold font-sans leading-tight capitalize text-center text-black mb-2 sm:mb-6'>Video Animation Combining Precision, <br /> Scalability & Branding Persona </h2> */}
+                            <h2 className='text-[20px] md:text-[25px] lg:text-[28px] xl:text-[36px] font-sans font-bold capitalize text-center text-black mb-2 sm:mb-6'>Video Animation Combining Precision, <br /> Scalability & Branding Persona </h2>
                         </div>
                     </div>
                 </div>
